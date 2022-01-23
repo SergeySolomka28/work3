@@ -13,22 +13,27 @@
     height: 100px;
     background: gray;
     flex-grow: 1;}
+
 .d{width: 100px;
     height: 100px;
     background: gray;
     flex-grow: 1;}
+
 .e{width: 100px;
     height: 100px;
     background: gray;
     flex-grow: 1;}
+
 .f{width: 100px;
     height: 100px;
     background: gray;
     flex-grow: 1;}
+
 .g{width: 100px;
     height: 100px;
     background: gray;
     flex-grow: 1;}
+
 .h{ height: inherit;
     background: green;
     flex-grow: 1;

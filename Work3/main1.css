@@ -4,7 +4,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0 0;
 
 
 
@@ -29,7 +29,7 @@
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
-    border-radius: 0px 0px 0px 20px;
+    border-radius: 0 0 0 20px;
 
 }
 .d{ display: flex;
@@ -59,9 +59,7 @@
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
-    border-radius: 0px 0px 20px 0px;
-
-
+    border-radius: 0 0 20px 0;
 }
 .wrap{display: flex;
     box-sizing: content-box;

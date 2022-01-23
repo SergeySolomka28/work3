@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Work3-1</title>
+    <style>
+
+    #wrap{display: flex;
+        flex-direction: column;
+        background: cornsilk;
+        width: 444px;
+        height: 300px;
+        box-sizing: border-box;
+        row-gap: 3px;
+
+
+    }
+    .box{
+        box-sizing: border-box;
+        flex-grow: 0;
+        column-gap: 3px;
+
+
+    }
+    .box1{ display: flex;
+    flex-direction: column;
+        width: 200px;
+        flex-grow: 1;
+        row-gap: 3px;
+    }
+
+    .box2{flex-grow: 0;
+        box-sizing: border-box;
+    column-gap: 3px;}
+
+
+    </style>
+<link rel="stylesheet" href="main2.css">
+
+</head>
+<body>
+<div class="border">
+<div id="wrap">
+    <div class="a">A</div>
+    <div class="box">
+
+        <div class="box1">
+            <div  class="boxa">
+            <div class="b">B</div>
+            <div class="c">C</div>
+            <div class="d">D</div>
+            </div>
+            <div class="box2">
+            <div class="e">E</div>
+            <div class="f">F</div>
+            <div class="g">G</div>
+            </div>
+        </div>
+        <div class="h">H</div>
+    </div>
+</div>
+</div>
+</body>
+</html>
